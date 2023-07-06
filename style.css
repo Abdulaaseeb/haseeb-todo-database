@@ -1,0 +1,62 @@
+@media only screen and (max-width: 555px) {
+    #todo-app{
+        width: 116px;
+    }
+  }
+.all{
+    margin-top: 20px;
+    border: 3px solid black;
+    /* border-radius:10px; */
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: white;
+    min-height: 400px;
+   
+}
+.all h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   flex-wrap: wrap;
+   margin-top: 5%;
+}
+.inp{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    break-before: always;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height:fixed;
+}
+.inp:focus{
+  border: none;
+  outline: none;
+}
+.button{
+    margin-right: 2%;
+    margin-bottom: 5px;
+    background-color: black;
+    color: aliceblue;
+}
+.button1{
+    padding: 1%;
+    margin: 0px;
+    margin-bottom: 5px;
+    background-color:black;
+    color: aliceblue;
+}
+.list{
+    text-align: center;
+    margin-top: 3%;
+    margin-right:5%;
+}
+body{
+   background-image: url(image/best_to_do_apps.jpg);
+}
